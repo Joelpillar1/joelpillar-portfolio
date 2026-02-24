@@ -64,63 +64,82 @@ const CaseStudyDetail = ({ project, isOpen, onClose }: CaseStudyDetailProps) => 
               <X size={24} />
             </button>
 
-            <div className="popup-content">
-              {hasCarousel ? (
-                <div className="hero-img-container carousel-container">
-                  <AnimatePresence mode="wait">
-                    <motion.img
-                      key={currentIdx}
-                      src={images[currentIdx]}
-                      alt={`${project.title} - Image ${currentIdx + 1}`}
-                      className="hero-img"
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      exit={{ opacity: 0 }}
-                      transition={{ duration: 0.3 }}
-                    />
-                  </AnimatePresence>
+            <div className="popup-split-layout">
+              <div className="left-panel">
+                {hasCarousel ? (
+                  <div className="carousel-wrapper">
+                    <div className="hero-img-container carousel-container">
+                      <AnimatePresence mode="wait">
+                        <motion.img
+                          key={currentIdx}
+                          src={images[currentIdx]}
+                          alt={`${project.title} - Image ${currentIdx + 1}`}
+                          className="hero-img"
+                          initial={{ opacity: 0 }}
+                          animate={{ opacity: 1 }}
+                          exit={{ opacity: 0 }}
+                          transition={{ duration: 0.3 }}
+                        />
+                      </AnimatePresence>
 
-                  <button className="carousel-btn prev" onClick={handlePrev}>
-                    <ChevronLeft size={24} />
-                  </button>
-                  <button className="carousel-btn next" onClick={handleNext}>
-                    <ChevronRight size={24} />
-                  </button>
+                      <button className="carousel-btn prev" onClick={handlePrev}>
+                        <ChevronLeft size={24} />
+                      </button>
+                      <button className="carousel-btn next" onClick={handleNext}>
+                        <ChevronRight size={24} />
+                      </button>
+                    </div>
 
-                  <div className="carousel-indicators">
-                    {images.map((_, idx) => (
-                      <div
-                        key={idx}
-                        className={`indicator ${idx === currentIdx ? 'active' : ''}`}
-                        onClick={(e) => { e.stopPropagation(); setCurrentIdx(idx); }}
-                      />
-                    ))}
+                    <div className="thumbnails-container">
+                      {images.map((img, idx) => (
+                        <div
+                          key={idx}
+                          className={`thumbnail-card ${idx === currentIdx ? 'active' : ''}`}
+                          onClick={(e) => { e.stopPropagation(); setCurrentIdx(idx); }}
+                        >
+                          <img src={img} alt={`Thumbnail ${idx + 1}`} />
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              ) : (project.detailImage || project.image) ? (
-                <div className="hero-img-container">
-                  <img src={project.detailImage || project.image} alt={project.title} className="hero-img" />
-                </div>
-              ) : (
-                <div className="hero-placeholder">
-                  <span>{project.title.charAt(0)}</span>
-                </div>
-              )}
-
-              <div className="content-body">
-                <h2 className="project-title">{project.title}</h2>
-
-                <div className="article-section">
-                  <p className="lead-text">{project.description}</p>
-                </div>
-
-                {project.prototypeUrl && (
-                  <div className="cta-container">
-                    <a href={project.prototypeUrl} target="_blank" rel="noopener noreferrer" className="primary-btn">
-                      View Prototype <ExternalLink size={18} />
-                    </a>
+                ) : (project.detailImage || project.image) ? (
+                  <div className="hero-img-container">
+                    <img src={project.detailImage || project.image} alt={project.title} className="hero-img" />
+                  </div>
+                ) : (
+                  <div className="hero-placeholder">
+                    <span>{project.title.charAt(0)}</span>
                   </div>
                 )}
+              </div>
+
+              <div className="right-panel">
+                <div className="content-body">
+                  <h2 className="project-title">{project.title}</h2>
+
+                  <div className="article-section">
+                    <p className="lead-text">{project.description}</p>
+                  </div>
+
+                  {project.tags && project.tags.length > 0 && (
+                    <div className="tags-section">
+                      <h4 className="tags-heading">Tags</h4>
+                      <div className="tags-list">
+                        {project.tags.map(tag => (
+                          <span key={tag} className="tag-item">#{tag}</span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {project.prototypeUrl && (
+                    <div className="cta-container">
+                      <a href={project.prototypeUrl} target="_blank" rel="noopener noreferrer" className="primary-btn">
+                        View Prototype <ExternalLink size={18} />
+                      </a>
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
           </motion.div>
@@ -129,7 +148,7 @@ const CaseStudyDetail = ({ project, isOpen, onClose }: CaseStudyDetailProps) => 
             .modal-overlay {
               position: fixed;
               inset: 0;
-              background: rgba(0, 0, 0, 0.6);
+              background: rgba(0, 0, 0, 0.8);
               backdrop-filter: blur(8px);
               z-index: 1000;
               display: flex;
@@ -139,7 +158,7 @@ const CaseStudyDetail = ({ project, isOpen, onClose }: CaseStudyDetailProps) => 
             }
             .modal-popup {
               width: 100%;
-              max-width: 800px;
+              max-width: 1200px;
               max-height: 90vh;
               background: linear-gradient(145deg, #1A1A1A 0%, #111111 100%);
               border: 1px solid rgba(255, 255, 255, 0.1);
@@ -155,8 +174,8 @@ const CaseStudyDetail = ({ project, isOpen, onClose }: CaseStudyDetailProps) => 
               top: 1.5rem;
               right: 1.5rem;
               z-index: 1010;
-              width: 44px;
-              height: 44px;
+              width: 40px;
+              height: 40px;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -173,41 +192,62 @@ const CaseStudyDetail = ({ project, isOpen, onClose }: CaseStudyDetailProps) => 
               color: #000000;
               transform: scale(1.05);
             }
-            .popup-content {
-              flex: 1;
-              overflow-y: auto;
-              overflow-x: hidden;
+            .popup-split-layout {
               display: flex;
               flex-direction: column;
+              height: 100%;
+              overflow-y: auto;
+            }
+            @media (min-width: 1024px) {
+              .popup-split-layout {
+                flex-direction: row;
+                overflow: hidden; /* prevents full modal scroll on desktop, individual panels will scroll */
+              }
+            }
+            .left-panel {
+              flex: 1.5;
+              display: flex;
+              flex-direction: column;
+              background: #0a0a0a;
+              border-right: 1px solid rgba(255, 255, 255, 0.05);
+            }
+            @media (min-width: 1024px) {
+              .left-panel {
+                overflow-y: auto;
+              }
+              .left-panel::-webkit-scrollbar {
+                width: 6px;
+              }
+              .left-panel::-webkit-scrollbar-thumb {
+                background: rgba(255,255,255,0.1);
+                border-radius: 6px;
+              }
+            }
+            .carousel-wrapper {
+              display: flex;
+              flex-direction: column;
+              gap: 1rem;
+              padding: 1.5rem;
             }
             .hero-img-container {
               width: 100%;
               position: relative;
               background: #111;
+              border-radius: 12px;
+              overflow: hidden;
             }
-            .hero-img {
-              width: 100%;
-              height: auto;
-              display: block;
-            }
-            .hero-placeholder {
-              width: 100%;
-              height: 40vh;
-              min-height: 300px;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              background: linear-gradient(135deg, #2a2a2a, #111111);
-              font-size: 6rem;
-              color: rgba(255,255,255,0.05);
-              font-weight: 800;
-            }
-            .carousel-container {
-               position: relative;
+            .hero-img-container.carousel-container {
                display: flex;
                align-items: center;
                justify-content: center;
                background: #000;
+               aspect-ratio: 4/3;
+            }
+            .hero-img {
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+              display: block;
             }
             .carousel-btn {
               position: absolute;
@@ -232,43 +272,76 @@ const CaseStudyDetail = ({ project, isOpen, onClose }: CaseStudyDetailProps) => 
               color: black;
               transform: translateY(-50%) scale(1.05);
             }
-            .carousel-btn.prev { left: 1.5rem; }
-            .carousel-btn.next { right: 1.5rem; }
-            .carousel-indicators {
-              position: absolute;
-              bottom: 1.2rem;
-              left: 50%;
-              transform: translateX(-50%);
+            .carousel-btn.prev { left: 1rem; }
+            .carousel-btn.next { right: 1rem; }
+            
+            .thumbnails-container {
               display: flex;
-              gap: 8px;
-              z-index: 10;
-              background: rgba(0,0,0,0.3);
-              padding: 6px 10px;
-              border-radius: 20px;
-              backdrop-filter: blur(4px);
+              gap: 12px;
+              overflow-x: auto;
+              padding-bottom: 0.5rem;
+              scrollbar-width: thin;
             }
-            .indicator {
-              width: 6px;
+            .thumbnails-container::-webkit-scrollbar {
               height: 6px;
-              border-radius: 50%;
-              background: rgba(255,255,255,0.3);
+            }
+            .thumbnails-container::-webkit-scrollbar-thumb {
+              background: rgba(255,255,255,0.2);
+              border-radius: 6px;
+            }
+            .thumbnail-card {
+              flex: 0 0 100px;
+              height: 75px;
+              border-radius: 8px;
+              overflow: hidden;
               cursor: pointer;
-              transition: all 0.2s;
+              border: 2px solid transparent;
+              opacity: 0.6;
+              transition: all 0.2s ease;
             }
-            .indicator.active {
-              background: white;
-              transform: scale(1.3);
-              width: 8px;
+            .thumbnail-card img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
             }
-            .content-body {
-              padding: clamp(2rem, 5vw, 3rem);
+            .thumbnail-card:hover {
+              opacity: 0.9;
+            }
+            .thumbnail-card.active {
+              opacity: 1;
+              border-color: #D4A574;
+              box-shadow: 0 0 10px rgba(212, 165, 116, 0.4);
+            }
+            
+            .right-panel {
+              flex: 1;
               display: flex;
               flex-direction: column;
-              align-items: center;
-              text-align: center;
+              padding: 2.5rem;
+              background: transparent;
+            }
+            @media (min-width: 1024px) {
+              .right-panel {
+                padding-top: 4rem; /* to avoid close btn overlap */
+                overflow-y: auto;
+              }
+              .right-panel::-webkit-scrollbar {
+                width: 6px;
+              }
+              .right-panel::-webkit-scrollbar-thumb {
+                background: rgba(255,255,255,0.1);
+                border-radius: 6px;
+              }
+            }
+            .content-body {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              text-align: left;
+              height: 100%;
             }
             .project-title {
-              font-size: clamp(2rem, 4vw, 2.5rem);
+              font-size: clamp(2rem, 3vw, 2.5rem);
               color: #ffffff;
               font-weight: 600;
               line-height: 1.2;
@@ -277,17 +350,46 @@ const CaseStudyDetail = ({ project, isOpen, onClose }: CaseStudyDetailProps) => 
             }
             .article-section {
               margin-bottom: 2.5rem;
-              max-width: 600px;
+              width: 100%;
+              padding-bottom: 2rem;
+              border-bottom: 1px solid rgba(255, 255, 255, 0.1);
             }
             .lead-text {
               font-size: 1.1rem !important;
-              color: #cccccc !important;
+              color: #a0a0a0 !important;
               line-height: 1.6 !important;
               margin: 0;
             }
-            .cta-container {
+            .tags-section {
+              margin-bottom: 3rem;
+              width: 100%;
+            }
+            .tags-heading {
+              font-size: 1.1rem;
+              color: #ffffff;
+              margin-bottom: 1rem;
+              font-weight: 600;
+            }
+            .tags-list {
               display: flex;
-              justify-content: center;
+              flex-wrap: wrap;
+              gap: 0.6rem;
+            }
+            .tag-item {
+              color: #888888;
+              background: rgba(255, 255, 255, 0.05);
+              padding: 0.4rem 0.8rem;
+              border-radius: 6px;
+              font-size: 0.85rem;
+              font-weight: 500;
+              transition: all 0.2s;
+            }
+            .tag-item:hover {
+              color: #ffffff;
+              background: rgba(255, 255, 255, 0.1);
+            }
+            .cta-container {
+              margin-top: auto;
               width: 100%;
             }
             .primary-btn {
@@ -305,6 +407,7 @@ const CaseStudyDetail = ({ project, isOpen, onClose }: CaseStudyDetailProps) => 
               transition: all 0.3s ease;
               border: 1px solid rgba(255, 255, 255, 0.4);
               box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.6), 0 4px 15px rgba(206, 158, 112, 0.3);
+              width: 100%; /* full width on sidebar */
             }
             .primary-btn:hover {
               transform: translateY(-2px);
@@ -313,6 +416,9 @@ const CaseStudyDetail = ({ project, isOpen, onClose }: CaseStudyDetailProps) => 
             
             @media (max-width: 768px) {
               .close-btn { top: 1rem; right: 1rem; }
+              .popup-split-layout { flex-direction: column; }
+              .right-panel { padding: 1.5rem; }
+              .carousel-wrapper { padding: 0.5rem; }
             }
           `}</style>
         </motion.div>
