@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -12,7 +13,20 @@ import './index.css';
 function App() {
   const [selectedProject, setSelectedProject] = useState<any>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [activeTab, setActiveTab] = useState('Product Design');
+
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const activeTab = location.pathname === '/graphic' ? 'Graphic Design' : 'Product Design';
+
+  // Redirect to correct path if tab state differs
+  const handleTabChange = (tab: string) => {
+    if (tab === 'Graphic Design') {
+      navigate('/graphic');
+    } else {
+      navigate('/');
+    }
+  };
 
   const handleSelectProject = (project: any) => {
     setSelectedProject(project);
@@ -22,7 +36,7 @@ function App() {
   return (
     <HeroHighlight containerClassName="w-full" className="w-full">
       <div className="w-full relative z-20">
-        <Navigation activeTab={activeTab} onTabChange={setActiveTab} />
+        <Navigation activeTab={activeTab} onTabChange={handleTabChange} />
         <main className="w-full flex flex-col items-center">
           <Hero activeTab={activeTab} />
           <CaseStudies activeTab={activeTab} onSelectProject={handleSelectProject} />

@@ -1,0 +1,103 @@
+﻿src/components/About.tsx(2,24): error TS2307: Cannot find module '../assets/Picture.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(2,22): error TS2307: Cannot find module '../assets/FINTA.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(3,28): error TS2307: Cannot find module '../assets/FINTA Detail.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(4,26): error TS2307: Cannot find module '../assets/ECLIPSPAY.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(5,32): error TS2307: Cannot find module '../assets/ECLIPSPAY Detail.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(6,24): error TS2307: Cannot find module '../assets/Nanopay.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(7,30): error TS2307: Cannot find module '../assets/Nanopay Detail.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(8,22): error TS2307: Cannot find module '../assets/Baron.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(9,28): error TS2307: Cannot find module '../assets/Baron Detail.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(10,24): error TS2307: Cannot find module '../assets/Cookery.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(11,30): error TS2307: Cannot find module '../assets/Cookery Detail.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(12,24): error TS2307: Cannot find module '../assets/Jupiter.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(13,30): error TS2307: Cannot find module '../assets/Jupiter Detail.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(16,29): error TS2307: Cannot find module '../assets/Graphic/Amigo/Amigo Feature.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(17,23): error TS2307: Cannot find module '../assets/Graphic/Amigo/Amigo1.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(18,23): error TS2307: Cannot find module '../assets/Graphic/Amigo/Amigo2.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(19,23): error TS2307: Cannot find module '../assets/Graphic/Amigo/Amigo3.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(20,23): error TS2307: Cannot find module '../assets/Graphic/Amigo/Amigo4.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(21,23): error TS2307: Cannot find module '../assets/Graphic/Amigo/Amigo5.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(22,23): error TS2307: Cannot find module '../assets/Graphic/Amigo/Amigo6.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(23,23): error TS2307: Cannot find module '../assets/Graphic/Amigo/Amigo7.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(24,23): error TS2307: Cannot find module '../assets/Graphic/Amigo/Amigo8.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(27,32): error TS2307: Cannot find module '../assets/Graphic/Dazzling Grit/Dazzling Grit.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(28,26): error TS2307: Cannot find module '../assets/Graphic/Dazzling Grit/1.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(29,26): error TS2307: Cannot find module '../assets/Graphic/Dazzling Grit/2.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(30,26): error TS2307: Cannot find module '../assets/Graphic/Dazzling Grit/3.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(31,26): error TS2307: Cannot find module '../assets/Graphic/Dazzling Grit/4.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(32,26): error TS2307: Cannot find module '../assets/Graphic/Dazzling Grit/5.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(33,26): error TS2307: Cannot find module '../assets/Graphic/Dazzling Grit/6.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(34,26): error TS2307: Cannot find module '../assets/Graphic/Dazzling Grit/7.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(35,26): error TS2307: Cannot find module '../assets/Graphic/Dazzling Grit/8.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(36,26): error TS2307: Cannot find module '../assets/Graphic/Dazzling Grit/9.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(37,27): error TS2307: Cannot find module '../assets/Graphic/Dazzling Grit/10.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(40,31): error TS2307: Cannot find module '../assets/Graphic/NanoPay/NanoPay Feature.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(41,25): error TS2307: Cannot find module '../assets/Graphic/NanoPay/1.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(42,25): error TS2307: Cannot find module '../assets/Graphic/NanoPay/2.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(43,25): error TS2307: Cannot find module '../assets/Graphic/NanoPay/3.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(44,25): error TS2307: Cannot find module '../assets/Graphic/NanoPay/4.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(45,25): error TS2307: Cannot find module '../assets/Graphic/NanoPay/5.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(46,25): error TS2307: Cannot find module '../assets/Graphic/NanoPay/6.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(47,25): error TS2307: Cannot find module '../assets/Graphic/NanoPay/7.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(48,25): error TS2307: Cannot find module '../assets/Graphic/NanoPay/8.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(49,28): error TS2307: Cannot find module '../assets/Graphic/NanoPay/CARD.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(50,28): error TS2307: Cannot find module '../assets/Graphic/NanoPay/DATA.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(51,31): error TS2307: Cannot find module '../assets/Graphic/NanoPay/GENERAL.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(54,34): error TS2307: Cannot find module '../assets/Graphic/LogosLogic/LogosLogic Feature.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(55,27): error TS2307: Cannot find module '../assets/Graphic/LogosLogic/Logoslogic.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(56,28): error TS2307: Cannot find module '../assets/Graphic/LogosLogic/Logoslogic-1.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(57,28): error TS2307: Cannot find module '../assets/Graphic/LogosLogic/Logoslogic-2.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(60,34): error TS2307: Cannot find module '../assets/Graphic/playground/PlayGround Feature.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(61,39): error TS2307: Cannot find module '../assets/Graphic/playground/Cultural Day (1).png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(62,38): error TS2307: Cannot find module '../assets/Graphic/playground/Cultural Day.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(63,32): error TS2307: Cannot find module '../assets/Graphic/playground/KOKO (3).png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(64,33): error TS2307: Cannot find module '../assets/Graphic/playground/Maffy-1.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(65,32): error TS2307: Cannot find module '../assets/Graphic/playground/Maffy.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(66,33): error TS2307: Cannot find module '../assets/Graphic/playground/OGJEF (2).png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(67,40): error TS2307: Cannot find module '../assets/Graphic/playground/Vicky's Apparel.jpg' or its corresponding type declarations.
+src/components/CaseStudies.tsx(68,38): error TS2307: Cannot find module '../assets/Graphic/playground/koko design (4).png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(71,33): error TS2307: Cannot find module '../assets/Graphic/superteam/Superteam Feature.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(72,39): error TS2307: Cannot find module '../assets/Graphic/superteam/Designers' Call.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(73,37): error TS2307: Cannot find module '../assets/Graphic/superteam/Technical Writing Workshop.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(74,37): error TS2307: Cannot find module '../assets/Graphic/superteam/UpNorth - Day 2.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(75,42): error TS2307: Cannot find module '../assets/Graphic/superteam/UpNorth - Speakers 5.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(76,42): error TS2307: Cannot find module '../assets/Graphic/superteam/UpNorth - Speakers-1.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(77,41): error TS2307: Cannot find module '../assets/Graphic/superteam/UpNorth - Speakers.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(78,34): error TS2307: Cannot find module '../assets/Graphic/superteam/UpNorth-1.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(79,34): error TS2307: Cannot find module '../assets/Graphic/superteam/UpNorth-2.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(80,34): error TS2307: Cannot find module '../assets/Graphic/superteam/UpNorth-3.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(81,33): error TS2307: Cannot find module '../assets/Graphic/superteam/UpNorth.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(82,35): error TS2307: Cannot find module '../assets/Graphic/superteam/x session-1.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(83,34): error TS2307: Cannot find module '../assets/Graphic/superteam/x session.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(86,34): error TS2307: Cannot find module '../assets/Graphic/AfriZenDAO/AfriZendao Feature.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(87,28): error TS2307: Cannot find module '../assets/Graphic/AfriZenDAO/1.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(88,28): error TS2307: Cannot find module '../assets/Graphic/AfriZenDAO/2.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(89,28): error TS2307: Cannot find module '../assets/Graphic/AfriZenDAO/4.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(90,28): error TS2307: Cannot find module '../assets/Graphic/AfriZenDAO/5.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(91,28): error TS2307: Cannot find module '../assets/Graphic/AfriZenDAO/6.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(92,28): error TS2307: Cannot find module '../assets/Graphic/AfriZenDAO/7.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(93,28): error TS2307: Cannot find module '../assets/Graphic/AfriZenDAO/9.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(94,29): error TS2307: Cannot find module '../assets/Graphic/AfriZenDAO/10.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(95,29): error TS2307: Cannot find module '../assets/Graphic/AfriZenDAO/11.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(98,29): error TS2307: Cannot find module '../assets/Graphic/Yeety Hair Bliss/Yeety Hair Bliss Feature.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(99,33): error TS2307: Cannot find module '../assets/Graphic/Yeety Hair Bliss/Conditioner.jpg' or its corresponding type declarations.
+src/components/CaseStudies.tsx(100,31): error TS2307: Cannot find module '../assets/Graphic/Yeety Hair Bliss/Hair Serum.jpg' or its corresponding type declarations.
+src/components/CaseStudies.tsx(101,32): error TS2307: Cannot find module '../assets/Graphic/Yeety Hair Bliss/Hair Spray-1.jpg' or its corresponding type declarations.
+src/components/CaseStudies.tsx(102,31): error TS2307: Cannot find module '../assets/Graphic/Yeety Hair Bliss/Hair Spray.jpg' or its corresponding type declarations.
+src/components/CaseStudies.tsx(103,31): error TS2307: Cannot find module '../assets/Graphic/Yeety Hair Bliss/Hair cream.jpg' or its corresponding type declarations.
+src/components/CaseStudies.tsx(104,29): error TS2307: Cannot find module '../assets/Graphic/Yeety Hair Bliss/Shampoo.jpg' or its corresponding type declarations.
+src/components/CaseStudies.tsx(107,32): error TS2307: Cannot find module '../assets/Graphic/polkadot/Polkadot Feature.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(108,26): error TS2307: Cannot find module '../assets/Graphic/polkadot/1.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(109,26): error TS2307: Cannot find module '../assets/Graphic/polkadot/2.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(110,26): error TS2307: Cannot find module '../assets/Graphic/polkadot/3.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(111,26): error TS2307: Cannot find module '../assets/Graphic/polkadot/4.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(112,26): error TS2307: Cannot find module '../assets/Graphic/polkadot/5.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(113,26): error TS2307: Cannot find module '../assets/Graphic/polkadot/6.png' or its corresponding type declarations.
+src/components/CaseStudies.tsx(114,32): error TS2307: Cannot find module '../assets/Graphic/polkadot/Meetups.png' or its corresponding type declarations.
+src/components/Hero.tsx(5,22): error TS2307: Cannot find module '../assets/Figma.png' or its corresponding type declarations.
+src/components/Hero.tsx(6,24): error TS2307: Cannot find module '../assets/ChatGPT.png' or its corresponding type declarations.
+src/components/Hero.tsx(7,23): error TS2307: Cannot find module '../assets/Notion.png' or its corresponding type declarations.
+src/components/Hero.tsx(8,26): error TS2307: Cannot find module '../assets/Photoshop.png' or its corresponding type declarations.
+src/components/Hero.tsx(9,23): error TS2307: Cannot find module '../assets/Sketch.png' or its corresponding type declarations.
+src/components/Hero.tsx(10,23): error TS2307: Cannot find module '../assets/framer.png' or its corresponding type declarations.
+src/components/Hero.tsx(11,24): error TS2307: Cannot find module '../assets/Picture.png' or its corresponding type declarations.
