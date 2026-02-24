@@ -57,42 +57,42 @@ import logosLogic1Img from '../assets/Graphic/LogosLogic/Logoslogic-1.png';
 import logosLogic2Img from '../assets/Graphic/LogosLogic/Logoslogic-2.png';
 
 // Playground Graphic Design
-import playgroundFeatureImg from '../assets/Graphic/playground/PlayGround Feature.png';
-import playgroundCulturalDay1Img from '../assets/Graphic/playground/Cultural Day (1).png';
-import playgroundCulturalDayImg from '../assets/Graphic/playground/Cultural Day.png';
-import playgroundKoko3Img from '../assets/Graphic/playground/KOKO (3).png';
-import playgroundMaffy1Img from '../assets/Graphic/playground/Maffy-1.png';
-import playgroundMaffyImg from '../assets/Graphic/playground/Maffy.png';
-import playgroundOgjef2Img from '../assets/Graphic/playground/OGJEF (2).png';
-import playgroundVickysApparelImg from '../assets/Graphic/playground/Vicky\'s Apparel.jpg';
-import playgroundKokoDesign4Img from '../assets/Graphic/playground/koko design (4).png';
+import playgroundFeatureImg from '../assets/Graphic/PlayGround/PlayGround Feature.png';
+import playgroundCulturalDay1Img from '../assets/Graphic/PlayGround/Cultural Day (1).png';
+import playgroundCulturalDayImg from '../assets/Graphic/PlayGround/Cultural Day.png';
+import playgroundKoko3Img from '../assets/Graphic/PlayGround/KOKO (3).png';
+import playgroundMaffy1Img from '../assets/Graphic/PlayGround/Maffy-1.png';
+import playgroundMaffyImg from '../assets/Graphic/PlayGround/Maffy.png';
+import playgroundOgjef2Img from '../assets/Graphic/PlayGround/OGJEF (2).png';
+import playgroundVickysApparelImg from '../assets/Graphic/PlayGround/Vicky\'s Apparel.jpg';
+import playgroundKokoDesign4Img from '../assets/Graphic/PlayGround/koko design (4).png';
 
 // Superteam Graphic Design
-import superteamFeatureImg from '../assets/Graphic/superteam/Superteam Feature.png';
-import superteamDesignersCallImg from '../assets/Graphic/superteam/Designers\' Call.png';
-import superteamTechWritingImg from '../assets/Graphic/superteam/Technical Writing Workshop.png';
-import superteamUpNorthDay2Img from '../assets/Graphic/superteam/UpNorth - Day 2.png';
-import superteamUpNorthSpeakers5Img from '../assets/Graphic/superteam/UpNorth - Speakers 5.png';
-import superteamUpNorthSpeakers1Img from '../assets/Graphic/superteam/UpNorth - Speakers-1.png';
-import superteamUpNorthSpeakersImg from '../assets/Graphic/superteam/UpNorth - Speakers.png';
-import superteamUpNorth1Img from '../assets/Graphic/superteam/UpNorth-1.png';
-import superteamUpNorth2Img from '../assets/Graphic/superteam/UpNorth-2.png';
-import superteamUpNorth3Img from '../assets/Graphic/superteam/UpNorth-3.png';
-import superteamUpNorthImg from '../assets/Graphic/superteam/UpNorth.png';
-import superteamXSession1Img from '../assets/Graphic/superteam/x session-1.png';
-import superteamXSessionImg from '../assets/Graphic/superteam/x session.png';
+import superteamFeatureImg from '../assets/Graphic/Superteam/Superteam Feature.png';
+import superteamDesignersCallImg from '../assets/Graphic/Superteam/Designers\' Call.png';
+import superteamTechWritingImg from '../assets/Graphic/Superteam/Technical Writing Workshop.png';
+import superteamUpNorthDay2Img from '../assets/Graphic/Superteam/UpNorth - Day 2.png';
+import superteamUpNorthSpeakers5Img from '../assets/Graphic/Superteam/UpNorth - Speakers 5.png';
+import superteamUpNorthSpeakers1Img from '../assets/Graphic/Superteam/UpNorth - Speakers-1.png';
+import superteamUpNorthSpeakersImg from '../assets/Graphic/Superteam/UpNorth - Speakers.png';
+import superteamUpNorth1Img from '../assets/Graphic/Superteam/UpNorth-1.png';
+import superteamUpNorth2Img from '../assets/Graphic/Superteam/UpNorth-2.png';
+import superteamUpNorth3Img from '../assets/Graphic/Superteam/UpNorth-3.png';
+import superteamUpNorthImg from '../assets/Graphic/Superteam/UpNorth.png';
+import superteamXSession1Img from '../assets/Graphic/Superteam/x session-1.png';
+import superteamXSessionImg from '../assets/Graphic/Superteam/x session.png';
 
 // AfriZenDAO Graphic Design
-import afriZendaoFeatureImg from '../assets/Graphic/AfriZenDAO/AfriZendao Feature.png';
-import afriZendao1Img from '../assets/Graphic/AfriZenDAO/1.png';
-import afriZendao2Img from '../assets/Graphic/AfriZenDAO/2.png';
-import afriZendao4Img from '../assets/Graphic/AfriZenDAO/4.png';
-import afriZendao5Img from '../assets/Graphic/AfriZenDAO/5.png';
-import afriZendao6Img from '../assets/Graphic/AfriZenDAO/6.png';
-import afriZendao7Img from '../assets/Graphic/AfriZenDAO/7.png';
-import afriZendao9Img from '../assets/Graphic/AfriZenDAO/9.png';
-import afriZendao10Img from '../assets/Graphic/AfriZenDAO/10.png';
-import afriZendao11Img from '../assets/Graphic/AfriZenDAO/11.png';
+import afriZendaoFeatureImg from '../assets/Graphic/AfriZenDao/AfriZendao Feature.png';
+import afriZendao1Img from '../assets/Graphic/AfriZenDao/1.png';
+import afriZendao2Img from '../assets/Graphic/AfriZenDao/2.png';
+import afriZendao4Img from '../assets/Graphic/AfriZenDao/4.png';
+import afriZendao5Img from '../assets/Graphic/AfriZenDao/5.png';
+import afriZendao6Img from '../assets/Graphic/AfriZenDao/6.png';
+import afriZendao7Img from '../assets/Graphic/AfriZenDao/7.png';
+import afriZendao9Img from '../assets/Graphic/AfriZenDao/9.png';
+import afriZendao10Img from '../assets/Graphic/AfriZenDao/10.png';
+import afriZendao11Img from '../assets/Graphic/AfriZenDao/11.png';
 
 // Yeety Hair Bliss Graphic Design
 import yeetyFeatureImg from '../assets/Graphic/Yeety Hair Bliss/Yeety Hair Bliss Feature.png';
@@ -104,14 +104,14 @@ import yeetyHairCreamImg from '../assets/Graphic/Yeety Hair Bliss/Hair cream.jpg
 import yeetyShampooImg from '../assets/Graphic/Yeety Hair Bliss/Shampoo.jpg';
 
 // Polkadot Graphic Design
-import polkadotFeatureImg from '../assets/Graphic/polkadot/Polkadot Feature.png';
-import polkadot1Img from '../assets/Graphic/polkadot/1.png';
-import polkadot2Img from '../assets/Graphic/polkadot/2.png';
-import polkadot3Img from '../assets/Graphic/polkadot/3.png';
-import polkadot4Img from '../assets/Graphic/polkadot/4.png';
-import polkadot5Img from '../assets/Graphic/polkadot/5.png';
-import polkadot6Img from '../assets/Graphic/polkadot/6.png';
-import polkadotMeetupsImg from '../assets/Graphic/polkadot/Meetups.png';
+import polkadotFeatureImg from '../assets/Graphic/Polkadot/Polkadot Feature.png';
+import polkadot1Img from '../assets/Graphic/Polkadot/1.png';
+import polkadot2Img from '../assets/Graphic/Polkadot/2.png';
+import polkadot3Img from '../assets/Graphic/Polkadot/3.png';
+import polkadot4Img from '../assets/Graphic/Polkadot/4.png';
+import polkadot5Img from '../assets/Graphic/Polkadot/5.png';
+import polkadot6Img from '../assets/Graphic/Polkadot/6.png';
+import polkadotMeetupsImg from '../assets/Graphic/Polkadot/Meetups.png';
 
 const projects = [
   {
