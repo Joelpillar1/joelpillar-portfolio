@@ -309,8 +309,8 @@ const CaseStudyDetail = ({ project, isOpen, onClose }: CaseStudyDetailProps) => 
             }
             .thumbnail-card.active {
               opacity: 1;
-              border-color: #D4A574;
-              box-shadow: 0 0 10px rgba(212, 165, 116, 0.4);
+              border-color: #10b981;
+              box-shadow: 0 0 10px rgba(16, 185, 129, 0.4);
             }
             
             .right-panel {
@@ -397,7 +397,7 @@ const CaseStudyDetail = ({ project, isOpen, onClose }: CaseStudyDetailProps) => 
               align-items: center;
               justify-content: center;
               gap: 0.8rem;
-              background: linear-gradient(90deg, #F3E4CF 0%, #CE9E70 100%);
+              background: linear-gradient(90deg, #6ee7b7 0%, #10b981 100%);
               color: #1A1A1A;
               padding: 1rem 2.5rem;
               border-radius: 100px;

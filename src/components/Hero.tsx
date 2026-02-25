@@ -141,7 +141,7 @@ const Hero = ({ activeTab }: HeroProps) => {
           <div className="powered-label">
             <span className="text-[#1d1d1b]">I’M JOEL PILLAR</span>
             <div
-              className="relative group cursor-zoom-in w-[44px] h-[44px] sm:w-[48px] sm:h-[48px] rounded-full flex-shrink-0 flex items-center justify-center border border-[#D4A574] p-[3px]"
+              className="relative group cursor-zoom-in w-[44px] h-[44px] sm:w-[48px] sm:h-[48px] rounded-full flex-shrink-0 flex items-center justify-center border border-[#10b981] p-[3px]"
               onClick={() => setIsImageExpanded(true)}
             >
               <div className="w-full h-full rounded-full overflow-hidden bg-white">
@@ -334,13 +334,13 @@ const Hero = ({ activeTab }: HeroProps) => {
         }
         .premium-badge {
           position: relative;
-          background: linear-gradient(135deg, #e8e0d1 0%, #D4A574 25%, #e8e0d1 50%, #D4A574 75%, #e8e0d1 100%);
+          background: linear-gradient(135deg, #a7f3d0 0%, #10b981 25%, #a7f3d0 50%, #10b981 75%, #a7f3d0 100%);
           background-size: 200% 200%;
           animation: badge-shimmer 4s linear infinite;
           padding: 0.5rem 2.2rem;
           border-radius: 18px;
           border: 1.5px solid rgba(255, 255, 255, 0.5); /* More visible white outline */
-          box-shadow: 0 10px 30px rgba(212, 165, 116, 0.15),
+          box-shadow: 0 10px 30px rgba(16, 185, 129, 0.15),
                       inset 0 1px 2px rgba(255, 255, 255, 0.6), /* Inner glow outline */
                       0 0 0 1px rgba(0, 0, 0, 0.05); /* Outer thin dark line for definition */
           overflow: hidden;

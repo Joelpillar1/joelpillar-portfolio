@@ -31,9 +31,9 @@
   --color-bg: #fcfbf8;
   --color-text: #1d1d1b;
   --color-text-muted: #6b6b6b;
-  --color-accent: #D4A574;
-  /* Anthropic signature tan */
-  --color-accent-hover: #c49665;
+  --color-accent: #10b981;
+  /* Green accent */
+  --color-accent-hover: #059669;
   --color-nav-bg: #1d1d1b;
   --color-border: rgba(0, 0, 0, 0.08);
   --color-dot: rgba(0, 0, 0, 0.1);

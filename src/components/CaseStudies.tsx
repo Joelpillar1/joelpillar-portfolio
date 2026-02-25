@@ -369,7 +369,7 @@ const CaseStudies = ({ activeTab, onSelectProject }: CaseStudiesProps) => {
           font-size: 0.75rem;
           text-transform: uppercase;
           letter-spacing: 0.2rem;
-          color: #D4A574;
+          color: #10b981;
         }
         .section-title {
           font-size: clamp(2rem, 4vw, 3rem);
@@ -447,7 +447,7 @@ const CaseStudies = ({ activeTab, onSelectProject }: CaseStudiesProps) => {
           white-space: nowrap;
         }
         .badge.view-product {
-          background: linear-gradient(135deg, #F3E4CF 0%, #CE9E70 25%, #F3E4CF 50%, #CE9E70 75%, #F3E4CF 100%);
+          background: linear-gradient(135deg, #a7f3d0 0%, #10b981 25%, #a7f3d0 50%, #10b981 75%, #a7f3d0 100%);
           background-size: 200% 200%;
           animation: badge-shimmer 4s linear infinite;
           color: #1A1A1A;

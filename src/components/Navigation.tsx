@@ -98,7 +98,7 @@ const Navigation = ({ activeTab, onTabChange }: NavigationProps) => {
         .active-indicator {
           position: absolute;
           inset: 0;
-          background: linear-gradient(180deg, #EAD6C0 0%, #D4A574 100%);
+          background: linear-gradient(180deg, #6ee7b7 0%, #10b981 100%);
           border-radius: 100px;
           z-index: 1;
           border: 1px solid rgba(255, 255, 255, 0.3);

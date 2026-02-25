@@ -28,11 +28,11 @@ const About = () => {
           <div className="stats-box">
             <div className="stat">
               <span className="stat-num">08</span>
-              <span className="stat-text">Product Design</span>
+              <span className="stat-text">Graphic Design</span>
             </div>
             <div className="stat">
               <span className="stat-num">05</span>
-              <span className="stat-text">Senior UI/UX</span>
+              <span className="stat-text">UI/UX Designer</span>
             </div>
           </div>
         </motion.div>
@@ -153,7 +153,7 @@ const About = () => {
         .stat-text {
           font-size: 0.85rem;
           text-transform: uppercase;
-          color: var(--color-tan, #d4a574);
+          color: var(--color-accent, #10b981);
           letter-spacing: 0.15rem;
           font-weight: 600;
         }
